@@ -1,7 +1,9 @@
 package com.loans.service;
 
-import com.loans.dto.*;
 import java.util.List;
+
+import com.loans.dto.LoanRequestDTO;
+import com.loans.dto.LoanResponseDTO;
 
 public interface LoanService {
 

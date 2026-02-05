@@ -1,10 +1,10 @@
 package com.loans.mapper;
 
+import java.time.LocalDateTime;
+
 import com.loans.dto.LoanRequestDTO;
 import com.loans.dto.LoanResponseDTO;
 import com.loans.entity.Loan;
-
-import java.time.LocalDateTime;
 
 public class LoanMapper {
 

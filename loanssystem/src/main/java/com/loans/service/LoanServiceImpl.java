@@ -1,14 +1,16 @@
 package com.loans.service;
 
-import com.loans.dto.*;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.stereotype.Service;
+
+import com.loans.dto.LoanRequestDTO;
+import com.loans.dto.LoanResponseDTO;
 import com.loans.entity.Loan;
 import com.loans.exception.LoanNotFoundException;
 import com.loans.mapper.LoanMapper;
 import com.loans.repository.LoanRepository;
-import org.springframework.stereotype.Service;
-
-import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 public class LoanServiceImpl implements LoanService {
